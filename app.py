@@ -6,6 +6,9 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 import re
+import nltk
+nltk.download('punkt')
+
 
 # Title
 st.title('Aplikasi Klasifikasi Kategori Berita')
